@@ -1,5 +1,7 @@
 # Acrool JC Console
 
+<img src="./preview.png" align="center" height="400"/>
+
 <p align="center">
     style color console.log
 </p>

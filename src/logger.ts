@@ -7,6 +7,14 @@ const baseStyles = [
     'border-radius: 4px',
 ];
 
+const theme = {
+    primary: '#0055a9',
+    success: '#009422',
+    info: '#17a2b8',
+    warning: '#d7a000',
+    danger: '#ec2127',
+};
+
 /**
  * 輸出訊息
  * @param title 標題
@@ -24,7 +32,7 @@ function messageConsole(title: string, styles: any, ...watchData: any) {
  */
 function primary(title: string, ...watchData: any) {
     const styles = baseStyles.concat([
-        'background-color: #007bff',
+        `background-color: ${theme.primary}`,
     ]).join(';');
 
     messageConsole(title, styles, ...watchData);
@@ -37,7 +45,7 @@ function primary(title: string, ...watchData: any) {
  */
 function success(title: string, ...watchData: any) {
     const styles = baseStyles.concat([
-        'background-color: #28a745',
+        `background-color: ${theme.success}`,
     ]).join(';');
 
     messageConsole(title, styles, ...watchData);
@@ -50,7 +58,7 @@ function success(title: string, ...watchData: any) {
  */
 function info(title: string, ...watchData: any) {
     const styles = baseStyles.concat([
-        'background-color: #17a2b8',
+        `background-color: ${theme.info}`,
     ]).join(';');
 
     messageConsole(title, styles, ...watchData);
@@ -63,7 +71,7 @@ function info(title: string, ...watchData: any) {
  */
 function warning(title: string, ...watchData: any) {
     const styles = baseStyles.concat([
-        'background-color: #ffc107',
+        `background-color: ${theme.warning}`,
     ]).join(';');
 
     messageConsole(title, styles, ...watchData);
@@ -76,7 +84,7 @@ function warning(title: string, ...watchData: any) {
  */
 function danger(title: string, ...watchData: any) {
     const styles = baseStyles.concat([
-        'background-color: #ec2127',
+        `background-color: ${theme.danger}`,
     ]).join(';');
 
     messageConsole(title, styles, ...watchData);
