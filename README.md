@@ -8,10 +8,10 @@
 
 <div align="center">
 
-[![NPM](https://img.shields.io/npm/v/acrool-js-logger.svg?style=for-the-badge)](https://www.npmjs.com/package/acrool-js-logger)
-[![npm downloads](https://img.shields.io/npm/dm/acrool-js-logger.svg?style=for-the-badge)](https://www.npmjs.com/package/acrool-js-logger)
-[![npm](https://img.shields.io/npm/dt/acrool-js-logger.svg?style=for-the-badge)](https://www.npmjs.com/package/acrool-js-logger)
-[![npm](https://img.shields.io/npm/l/acrool-js-logger?style=for-the-badge)](https://github.com/@acrool/acrool-js-logger/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/v/%40acrool%2Fjs-logger.svg?style=for-the-badge)](https://www.npmjs.com/package/@acrool/js-logger)
+[![npm downloads](https://img.shields.io/npm/dm/%40acrool%2Fjs-logger.svg?style=for-the-badge)](https://www.npmjs.com/package/@acrool/js-logger)
+[![npm](https://img.shields.io/npm/dt/%40acrool%2Fjs-logger.svg?style=for-the-badge)](https://www.npmjs.com/package/@acrool/js-logger)
+[![npm](https://img.shields.io/npm/l/%40acrool%2Fjs-logger?style=for-the-badge)](https://github.com/acrool/acrool-js-logger/blob/main/LICENSE)
 
 </div>
 
