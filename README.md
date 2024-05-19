@@ -1,6 +1,6 @@
 # Acrool JS Logger
 
-<img src="./preview.png" align="center" height="400"/>
+<img src="./preview.png" align="center" style="width: 700px;max-width: 100%"/>
 
 <p align="center">
     style color console.log
