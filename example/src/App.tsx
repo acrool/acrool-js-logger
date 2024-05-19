@@ -1,4 +1,4 @@
-import logger from '@acrool/js-console';
+import logger from '@acrool/js-logger';
 import './App.css';
 import './bootstrap-base.min.css';
 
@@ -19,7 +19,7 @@ function App() {
         <div className="App">
             <h1>Acrool JS Console</h1>
             <code>
-                $ yarn add @acrool/js-conole
+                $ yarn add @acrool/js-logger
             </code>
         </div>
     );

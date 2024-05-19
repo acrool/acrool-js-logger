@@ -1,4 +1,4 @@
-# Acrool JC Console
+# Acrool JS Logger
 
 <img src="./preview.png" align="center" height="400"/>
 
@@ -8,10 +8,10 @@
 
 <div align="center">
 
-[![NPM](https://img.shields.io/npm/v/acrool-js-conole.svg?style=for-the-badge)](https://www.npmjs.com/package/acrool-js-conole)
-[![npm downloads](https://img.shields.io/npm/dm/acrool-js-conole.svg?style=for-the-badge)](https://www.npmjs.com/package/acrool-js-conole)
-[![npm](https://img.shields.io/npm/dt/acrool-js-conole.svg?style=for-the-badge)](https://www.npmjs.com/package/acrool-js-conole)
-[![npm](https://img.shields.io/npm/l/acrool-js-conole?style=for-the-badge)](https://github.com/@acrool/acrool-js-conole/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/v/acrool-js-logger.svg?style=for-the-badge)](https://www.npmjs.com/package/acrool-js-logger)
+[![npm downloads](https://img.shields.io/npm/dm/acrool-js-logger.svg?style=for-the-badge)](https://www.npmjs.com/package/acrool-js-logger)
+[![npm](https://img.shields.io/npm/dt/acrool-js-logger.svg?style=for-the-badge)](https://www.npmjs.com/package/acrool-js-logger)
+[![npm](https://img.shields.io/npm/l/acrool-js-logger?style=for-the-badge)](https://github.com/@acrool/acrool-js-logger/blob/main/LICENSE)
 
 </div>
 
@@ -23,13 +23,13 @@
 ## Installation
 
 ```bash
-yarn add @acrool/js-console
+yarn add @acrool/js-logger
 ```
 
 ## Examples
 
 ```ts
-import logger from '@acrool/js-console';
+import logger from '@acrool/js-logger';
 
 const objectVar = {id: 1, name: 'imaginechiu'}; 
 const arrayVar = [1, 2, 3, 4]; 

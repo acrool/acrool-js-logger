@@ -20,7 +20,7 @@
     "@types/styled-components": "^5.1.26",
     "axios": "^1.6.5",
     "bear-jsutils": "3.2.0-alpha.4",
-    "@acrool/js-console": "link:..",
+    "@acrool/js-logger": "link:..",
     "@acrool/react-table": "4.3.8-alpha.2",
     "styled-components": "5.3.9",
     "dayjs": "^1.11.10",

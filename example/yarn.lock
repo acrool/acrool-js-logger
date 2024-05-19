@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@acrool/js-console@link:..":
+"@acrool/js-logger@link:..":
   version "0.0.0"
   uid ""
 

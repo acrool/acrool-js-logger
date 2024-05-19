@@ -11,17 +11,17 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/acrool/acrool-js-console.git"
+    "url": "https://github.com/acrool/acrool-js-logger.git"
   },
   "engines": {
     "node": ">=14"
   },
-  "module": "./dist/acrool-js-console.es.js",
+  "module": "./dist/acrool-js-logger.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "browser": "./dist/acrool-js-console.es.js",
-      "import": "./dist/acrool-js-console.es.js"
+      "browser": "./dist/acrool-js-logger.es.js",
+      "import": "./dist/acrool-js-logger.es.js"
     }
   },
   "files": [
