@@ -2,9 +2,10 @@
 # yarn lockfile v1
 
 
-"@acrool/js-logger@link:..":
-  version "0.0.0"
-  uid ""
+"@acrool/js-logger@1.0.21":
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/@acrool/js-logger/-/js-logger-1.0.21.tgz#e840d21f4a74e235578a4d7bdaab74cec6af3dce"
+  integrity sha512-m6HY1LwyD9M6A2zKgcpbDRDbF9mqpM1P7v6xFtJH8StxQBCKYAP97RLvSgGV1jTzeiqOftgcuHCr1pM2kZ31eA==
 
 "@ampproject/remapping@^2.2.0":
   version "2.3.0"
