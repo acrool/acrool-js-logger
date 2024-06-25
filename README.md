@@ -1,24 +1,34 @@
 # Acrool JS Logger
 
-<img src="./preview.png" align="center" style="width: 700px;max-width: 100%"/>
+<a href="https://acrool-react-iconsvg.pages.dev/" title="Acrool JS Logger - style color console.log">
+    <img src="https://acrool-js-logger.pages.dev/og.webp" alt="Acrool JS Logger Logo" />
+</a>
 
 <p align="center">
-    style color console.log
+   style color console.log
 </p>
+
+
+
+
 
 <div align="center">
 
-[![NPM](https://img.shields.io/npm/v/%40acrool%2Fjs-logger.svg?style=for-the-badge)](https://www.npmjs.com/package/@acrool/js-logger)
-[![npm downloads](https://img.shields.io/npm/dm/%40acrool%2Fjs-logger.svg?style=for-the-badge)](https://www.npmjs.com/package/@acrool/js-logger)
-[![npm](https://img.shields.io/npm/dt/%40acrool%2Fjs-logger.svg?style=for-the-badge)](https://www.npmjs.com/package/@acrool/js-logger)
-[![npm](https://img.shields.io/npm/l/%40acrool%2Fjs-logger?style=for-the-badge)](https://github.com/acrool/acrool-js-logger/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/v/@acrool/js-logger.svg?style=for-the-badge)](https://www.npmjs.com/package/@acrool/js-logger)
+[![npm](https://img.shields.io/bundlejs/size/@acrool/js-logger?style=for-the-badge)](https://github.com/acrool/js-logger/blob/main/LICENSE)
+[![npm](https://img.shields.io/npm/l/@acrool/js-logger?style=for-the-badge)](https://github.com/acrool/acrool-js-logger/blob/main/LICENSE)
+
+[![npm downloads](https://img.shields.io/npm/dm/@acrool/js-logger.svg?style=for-the-badge)](https://www.npmjs.com/package/@acrool/js-logger)
+[![npm](https://img.shields.io/npm/dt/@acrool/js-logger.svg?style=for-the-badge)](https://www.npmjs.com/package/@acrool/js-logger)
+
 
 </div>
 
 
+
 ## Features
 
-- style color
+- style color version console.log
 
 ## Installation
 
@@ -42,6 +52,9 @@ logger.danger('danger', objectVar, arrayVar);
 logger.info('info', objectVar, arrayVar);
 
 ```
+
+<img src="./preview.png" align="center" style="width: 700px;max-width: 100%"/>
+
 
 ## License
 
