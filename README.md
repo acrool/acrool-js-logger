@@ -62,5 +62,5 @@ There is also a example that you can play with it:
 
 ## License
 
-MIT © [acrool](https://github.com/acrool)
+MIT © [Acrool](https://github.com/acrool) & [Imagine](https://github.com/imagine10255)
 
