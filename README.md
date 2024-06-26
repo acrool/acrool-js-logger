@@ -9,9 +9,6 @@
 </p>
 
 
-
-
-
 <div align="center">
 
 [![NPM](https://img.shields.io/npm/v/@acrool/js-logger.svg?style=for-the-badge)](https://www.npmjs.com/package/@acrool/js-logger)
@@ -54,6 +51,13 @@ logger.info('info', objectVar, arrayVar);
 ```
 
 <img src="./preview.png" align="center" style="width: 700px;max-width: 100%"/>
+
+
+
+
+There is also a example that you can play with it:
+
+[![Play react-editext-example](https://raw.githubusercontent.com/acrool/acrool-js-logger/main/play-in-example-button.svg)](https://acrool-js-logger.pages.dev)
 
 
 ## License
