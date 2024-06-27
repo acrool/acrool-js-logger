@@ -1,7 +1,7 @@
 # Acrool JS Logger
 
 <a href="https://acrool-react-iconsvg.pages.dev/" title="Acrool JS Logger - style color console.log">
-    <img src="https://acrool-js-logger.pages.dev/og.webp" alt="Acrool JS Logger Logo" />
+    <img src="https://raw.githubusercontent.com/acrool/acrool-js-logger/main/example/public/og.webp" alt="Acrool JS Logger Logo"/>
 </a>
 
 <p align="center">
