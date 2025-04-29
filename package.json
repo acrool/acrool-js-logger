@@ -7,7 +7,6 @@
     "typescript",
     "js-logger"
   ],
-  "type": "module",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -24,7 +23,8 @@
       "types": "./dist/index.d.ts",
       "browser": "./dist/acrool-js-logger.es.js",
       "import": "./dist/acrool-js-logger.es.js",
-      "require": "./dist/acrool-js-logger.cjs.js"
+      "require": "./dist/acrool-js-logger.cjs.js",
+      "default": "./dist/acrool-js-logger.cjs.js"
     }
   },
   "files": [
