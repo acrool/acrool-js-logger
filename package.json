@@ -16,6 +16,7 @@
   "engines": {
     "node": ">=14"
   },
+  "main": "./dist/acrool-js-logger.cjs.js",
   "module": "./dist/acrool-js-logger.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
