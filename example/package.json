@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "pages:dev": "wrangler pages dev --proxy 3000 -- yarn dev",
-    "pages:deploy": "NODE_VERSION=20 yarn run build && wrangler pages deploy ./dist"
+    "pages:deploy": "NODE_VERSION=20 yarn build && wrangler pages deploy ./dist --project-name=acrool-js-logger --branch main"
   },
   "resolutions": {
     "styled-components": "6.1.17"
