@@ -30,7 +30,11 @@ export default defineConfig(({mode}) => {
             lib: {
                 entry: path.resolve(__dirname, 'src/index.ts'),
                 formats: ['es', 'cjs'],
-                fileName: (format,entryName) => `acrool-js-logger.${format}`,
+                fileName: (format) => {
+                    if (format === 'es') return 'acrool-js-logger.mjs';
+                    if (format === 'cjs') return 'acrool-js-logger.cjs';
+                    return `acrool-js-logger.${format}.js`;
+                }
             }
         },
     };
