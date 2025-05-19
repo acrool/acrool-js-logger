@@ -1,6 +1,6 @@
 {
   "name": "@acrool/js-logger",
-  "version": "1.0.26",
+  "version": "1.0.27-alpha.0",
   "description": "style color console.log",
   "keywords": [
     "acrool",
@@ -15,16 +15,16 @@
   "engines": {
     "node": ">=14"
   },
-  "main": "./dist/acrool-js-logger.cjs.js",
-  "module": "./dist/acrool-js-logger.es.js",
+  "main": "./dist/acrool-js-logger.cjs",
+  "module": "./dist/acrool-js-logger.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "browser": "./dist/acrool-js-logger.es.js",
-      "import": "./dist/acrool-js-logger.es.js",
-      "require": "./dist/acrool-js-logger.cjs.js",
-      "default": "./dist/acrool-js-logger.cjs.js"
+      "browser": "./dist/acrool-js-logger.mjs",
+      "import": "./dist/acrool-js-logger.mjs",
+      "require": "./dist/acrool-js-logger.cjs",
+      "default": "./dist/acrool-js-logger.cjs"
     }
   },
   "files": [
