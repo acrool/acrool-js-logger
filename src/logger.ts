@@ -8,11 +8,12 @@ const baseStyles = [
 ];
 
 const theme = {
-    primary: '#0055a9',
-    success: '#009422',
-    info: '#17a2b8',
-    warning: '#d7a000',
-    danger: '#ec2127',
+    log: '#b6b6b6',
+    primary: '#8b7ec8',
+    success: '#70ad47',
+    info: '#5fb3d3',
+    warning: '#f5c842',
+    danger: '#e85a4f',
 };
 
 /**
@@ -26,7 +27,16 @@ function messageConsole(title: string, styles: any, ...watchData: any) {
 }
 
 /**
- * Primary (深藍)
+ * Log
+ * @param title
+ * @param watchData
+ */
+function log(title: string, ...watchData: any) {
+    messageConsole(title, '', ...watchData);
+}
+
+/**
+ * Primary
  * @param title
  * @param watchData
  */
@@ -39,7 +49,7 @@ function primary(title: string, ...watchData: any) {
 }
 
 /**
- * Success (綠色)
+ * Success
  * @param title
  * @param watchData
  */
@@ -52,7 +62,7 @@ function success(title: string, ...watchData: any) {
 }
 
 /**
- * Info (天藍)
+ * Info
  * @param title
  * @param watchData
  */
@@ -65,7 +75,7 @@ function info(title: string, ...watchData: any) {
 }
 
 /**
- * Warning (黃色)
+ * Warning
  * @param title
  * @param watchData
  */
@@ -78,7 +88,7 @@ function warning(title: string, ...watchData: any) {
 }
 
 /**
- * Danger (紅色)
+ * Danger
  * @param title
  * @param watchData
  */
@@ -93,6 +103,7 @@ function danger(title: string, ...watchData: any) {
 
 
 const logger = {
+    log,
     primary,
     success,
     info,

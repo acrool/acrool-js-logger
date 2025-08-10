@@ -11,6 +11,7 @@ const Example = () => {
     const arrayObjVar = [{id: 1, name: 'imaginechiu'}, {id: 2, name: 'selinwu'}, {id: 3, name: 'garychien'}];
 
     useEffect(() => {
+        logger.log('log', objectVar, arrayObjVar, arrayVar);
         logger.primary('primary', objectVar, arrayObjVar, arrayVar);
         logger.success('success', objectVar, arrayObjVar, arrayVar);
         logger.warning('warning', objectVar, arrayObjVar, arrayVar);
